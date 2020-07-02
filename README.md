@@ -33,7 +33,7 @@ pip install -r requirements.txt
 python manage.py runserver
 
 
-### Sample images
+<!-- ### Sample images
 
 ![Homepage](images/homepage.png)
 
@@ -43,4 +43,4 @@ python manage.py runserver
 
 ![Find branches of a bank in a city](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch.png)
 
-![Branch details](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch_details.png)
+![Branch details](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch_details.png) -->
