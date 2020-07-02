@@ -35,12 +35,12 @@ python manage.py runserver
 
 ### Sample images
 
-![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/homepage.png)
+![Homepage](https://github.com/hanzala-sohrab/IFSC/tree/master/images/homepage.png)
 
-![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/ifsc-find.png)
+![Find banks by IFSC](https://github.com/hanzala-sohrab/IFSC/tree/master/images/ifsc-find.png)
 
-![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/bank_details.png)
+![Bank details](https://github.com/hanzala-sohrab/IFSC/tree/master/images/bank_details.png)
 
-![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch.png)
+![Find branches of a bank in a city](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch.png)
 
-![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch_details.png)
+![Branch details](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch_details.png)
