@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFSC</title>
+</head>
+<body>
+    <form method="POST" >
+        {% csrf_token %}
+        <h3>Search for a bank by its IFSC</h3>
+        <label for="bank">IFSC</label>
+        <input type="text" name="ifs_code">
+        <br>
+        <h2>OR</h2>
+        <h3>Search for all the branches of a particular bank in a particular city</h3>
+        <label for="branches">Bank name : </label>
+        <input type="text" name="bank_name">
+        <br>
+        <label for="branches">City name : </label>
+        <input type="text" name="city_name">
+        <br><br>
+        <button type="submit">Find</button>
+    </form>
+</body>
+</html>
