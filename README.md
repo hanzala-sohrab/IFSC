@@ -31,16 +31,3 @@ pip install -r requirements.txt
 ### Usage
 ```
 python manage.py runserver
-
-
-<!-- ### Sample images
-
-![Homepage](images/homepage.png)
-
-![Find banks by IFSC](https://github.com/hanzala-sohrab/IFSC/tree/master/images/ifsc-find.png)
-
-![Bank details](https://github.com/hanzala-sohrab/IFSC/tree/master/images/bank_details.png)
-
-![Find branches of a bank in a city](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch.png)
-
-![Branch details](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch_details.png) -->
