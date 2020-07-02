@@ -1,5 +1,5 @@
 # IFSC
-RESTful API for getting the details of a bank branch given its IFSC code and also list all the branches of a particular bank in a particular city.
+RESTful API for getting the details of a bank branch given its IFSC and also list all the branches of a particular bank in a particular city.
 
 ## Getting Started
 This is the actual working link : https://django-ifsc.herokuapp.com/
