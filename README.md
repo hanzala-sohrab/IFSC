@@ -35,7 +35,7 @@ python manage.py runserver
 
 ### Sample images
 
-![Homepage](https://github.com/hanzala-sohrab/IFSC/tree/master/images/homepage.png)
+![Homepage](images/homepage.png)
 
 ![Find banks by IFSC](https://github.com/hanzala-sohrab/IFSC/tree/master/images/ifsc-find.png)
 
