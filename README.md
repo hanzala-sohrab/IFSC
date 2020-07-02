@@ -31,3 +31,16 @@ pip install -r requirements.txt
 ### Usage
 ```
 python manage.py runserver
+
+
+### Sample images
+
+![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/homepage.png)
+
+![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/ifsc-find.png)
+
+![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/bank_details.png)
+
+![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch.png)
+
+![alt text](https://github.com/hanzala-sohrab/IFSC/tree/master/images/branch_details.png)
