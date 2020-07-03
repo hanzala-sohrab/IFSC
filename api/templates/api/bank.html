@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank details</title>
+</head>
+<body>
+    <a href="{% url 'index' %}">Home</a>
+    <br>
+    Bank : {{ ifsc.BANK }}
+    <br>
+    IFSC : {{ifsc.IFSC }}
+    <br>
+    Branch : {{ifsc.BRANCH }}
+    <br>
+    Centre : {{ifsc.CENTRE }}
+    <br>
+    District : {{ifsc.DISTRICT }}
+    <br>
+    State : {{ifsc.STATE }}
+    <br>
+    City : {{ifsc.CITY }}
+    <br>
+    Address : {{ifsc.ADDRESS }}
+    <br>
+    Contact : {{ifsc.CONTACT }}
+    <br>
+    IMPS : {{ifsc.IMPS }}
+    <br>
+    RTGS : {{ifsc.RTGS }}
+    <br>
+    NEFT : {{ifsc.NEFT }}
+    <br>
+    MICR : {{ifsc.MICR }}
+    <br>
+    UPI : {{ifsc.UPI }}
+</body>
+</html>
