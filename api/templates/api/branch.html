@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branch details</title>
+</head>
+<body>
+    <a href="{% url 'index'%}">Home</a>
+    <h3>Branches of {{ bank }} in {{ city }}, {{state}}</h3>
+    <table border="1">
+            <th>IFSC</th>
+            <th>BRANCH</th>
+            <th>CENTRE</th>
+            <th>DISTRICT</th>
+            <th>ADDRESS</th>
+            <th>CONTACT</th>
+            <th>IMPS</th>
+            <th>RTGS</th>
+            <th>NEFT</th>
+            <th>MICR</th>
+            <th>UPI</th>
+            {% for item in branches %}
+                <tr>
+                    <td>{{ item.IFSC }}</td>
+                    <td>{{ item.BRANCH }}</td>
+                    <td>{{ item.CENTRE }}</td>
+                    <td>{{ item.DISTRICT }}</td>
+                    <td>{{ item.ADDRESS }}</td>
+                    <td>{{ item.CONTACT }}</td>
+                    <td>{{ item.IMPS }}</td>
+                    <td>{{ item.RTGS }}</td>
+                    <td>{{ item.NEFT }}</td>
+                    <td>{{ item.MICR }}</td>
+                    <td>{{ item.UPI }}</td>
+                </tr>
+            {% endfor %}
+    </table>
+</body>
+</html>
